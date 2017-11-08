@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+
+<!--  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+body{
+
+	background-color: #F0F8FF;
+}
+
+#ownstyle{
+	background-color: white;
+	border-radius:0px;
+}
+
+.wrapper{
+  border:1px solid mintcream;
+	border-top:5px solid purple;
+	padding-left:0px !important;
+		padding-right:0px !important;
+
+}
+li{
+	color:black !important;
+}
+#iconbar{
+
+	background-color: black;
+}
+.quick{
+
+	border-bottom:1px solid black;
+}
+input{
+
+	background-color:lightgray;
+}
+.top{
+	margin-top:10px;
+}
+#box{
+  font-size: 16px;
+    background-color: white;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs1cSn6mDDAfUesZAX9Jj4A4luHDirdcCs7AOHQJEW256JjhcL');
+    background-position: 95% 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 0px 40px;
+    background-size: 20px 20px;
+}
+.iwrapper{
+
+  background-color:white;
+}
+.fonter{
+  font-size:20px;
+  text-align:center;
+}
+.navbar-nav>li>a:hover{
+color:black !important;
+}
+</style>
+</head>
+<body>
+<div class="container wrapper">
+  <div class="col-xs-12" style="position: relative;z-index:10;">
+
+<input type="text"  id="box" class="col-xs-4 pull-right"  style="border-radius:5px;">
+  </div>
+<nav  id="ownstyle" class="navbar navbar-inverse ">
+  <div id="menu" class="col-xs-12 ">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle"  id="iconbar" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <h1 style="font-size:18px;margin-top:-10px" href="#"> <span style="font-family: serif;font-size:30px;">U</span> <span style="font-family: serif;font-size:25px;margin-left:-4px">T</span>OPIC  <span style="font-family: serif;font-size:25px;">F</span>LOWERS</h1>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="#">HOME</a></li>
+        <li class="dropdown">
+          <a href="#">STYLEDEMO</a>
+          
+        </li>
+        <li><a href="#">FULLWIDTH</a></li>
+        <li><a href="#">DROPDOWN</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">GALLERY</a></li>
+
+      </ul>
+
+    </div>
+  </div>
+
+</nav>
+  <div class="col-xs-12" style="background-color:lightgray;margin-top:-20px;position:relative;z-index:40">
+<p class="fonter">"Lorem ipsum dolor sit amet,consectetur adipiscing elit,Nunc non diam</p>
+<p class="fonter">erat .Infringilla massa ut nisi ullamcroper pellentesque,,</p>
+
+
+
+  </div>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:-22px">
+    <!-- Indicators -->
+    <ol  id="indi" class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img class="slider" src="https://statics.sportskeeda.com/wp-content/uploads/2017/01/messi-suarez-1483965844-800.jpg" alt="Los Angeles" style="width:100%;height:300px">
+        <div class="carousel-caption cap" >
+<h1>Barcelona</h1>
+<p>Dapiensociis temper donec auctortoris cumsan et curabitur</p>
+<p>condis  lorem loborttis leo.Ipsumcommodo libero nun at in velis</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img  class="slider" src="http://www.lagostelevision.com/wp-content/uploads/2016/12/messi-jersey.jpg" alt="Chicago" style="width:100%;height:300px">
+        <div class="carousel-caption cap" style="float:right">
+          <h1>Messi</h1>
+<p>Dapiensociis temper donec auctortoris cumsan et curabitur</p>
+<p>condis  lorem loborttis leo.Ipsumcommodo libero nun at in velis</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img  class="slider" src="https://statics.sportskeeda.com/wp-content/uploads/2017/03/lionel-messi-smile-1488713763-800.jpg" alt="New York" style="width:100%;height:300px;">
+        <div class="carousel-caption cap"  >
+  <h1>Champion</h1>
+  <p>Dapiensociis temper donec auctortoris cumsan et curabitur</p>
+  <p>condis  lorem loborttis leo.Ipsumcommodo libero nun at in velis</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<div class="col-xs-12" style="background-color: white">
+<div class="col-sm-4" >
+		<div class="col-sm-4" style="padding-top: 25px">
+
+
+<img src="http://d2x51gyc4ptf2q.cloudfront.net/content/uploads/2016/10/Ronaldo.jpg" width=100%>
+	</div>
+	<div class="col-sm-8">
+
+<h3 style="color:purple">Lorum ipsum dolor</h3>
+<p>Orciinterdum condimenterdum
+nullamcorper elit nam curabitur
+laoreet met praesennean et
+iaculum.Metridiculis conseque
+quis iaculum aen ean nunc 
+aenean quis nam nis</p>
+
+	</div>
+</div>
+
+<div class="col-sm-4" >
+		<div class="col-sm-4" style="padding-top: 25px">
+
+
+<img src="http://images.cdn.fourfourtwo.com/sites/fourfourtwo.com/files/styles/inline-image/public/neymar_most_expensive_player.png?itok=yxhsmWew" width=100%>
+	</div>
+	<div class="col-sm-8">
+
+<h3 style="color:purple">Lorum ipsum dolor</h3>
+<p>Orciinterdum condimenterdum
+nullamcorper elit nam curabitur
+laoreet met praesennean et
+iaculum.Metridiculis conseque
+quis iaculum aen ean nunc 
+aenean quis nam nis</p>
+
+	</div>
+</div>
+
+<div class="col-sm-4"  >
+		<div class="col-sm-4" style="padding-top: 25px">
+
+<img src="http://i.dailymail.co.uk/i/pix/2012/11/18/article-2234511-12995EA4000005DC-568_634x356.jpg" width=100%>
+
+	</div>
+	<div class="col-sm-8">
+
+<h3 style="color:purple">Lorum ipsum dolor</h3>
+<p>Orciinterdum condimenterdum
+nullamcorper elit nam curabitur
+laoreet met praesennean et
+iaculum.Metridiculis conseque
+quis iaculum aen ean nunc 
+aenean quis nam nis</p>
+
+	</div>
+</div>
+</div>
+
+
+
+<div class="col-xs-12" style="background-color:lightgray;padding:20px ">
+
+<div class="col-sm-4  col-xs-12 iwrapper" style="padding:5px;background-color:lightgray;">
+
+<img class="col-xs-12" src="https://wallpaperclicker.com/storage/wallpaper/football-player-wallpapers-high-resolution-19343406.jpg" style="height:180px;background-color:white;padding-top:10px; ">
+<div class="col-xs-12" style="background-color:white;">
+
+<h3 style="color:purple;text-align: center">Lorum ipsum dolor</h3>
+<p>Orciinterdum condimenterdum
+nullamcorper elit nam curabitur
+laoreet met praesennean et
+iaculum.Metridiculis conseque
+quis iaculum aen ean nunc 
+aenean quis nam nis</p>
+
+  </div>
+</div>
+
+<div class="col-sm-4 col-xs-12 iwrapper"  style="padding:5px;background-color:lightgray">
+<img class="col-xs-12" src="https://wallpaperclicker.com/storage/wallpaper/football-player-wallpapers-high-resolution-19343406.jpg"  style="height:180px;background-color:white;padding-top:10px;">
+
+<div class="col-xs-12" style="background-color:white;">
+
+<h3 style="color:purple;text-align:center">Lorum ipsum dolor</h3>
+<p>Orciinterdum condimenterdum
+nullamcorper elit nam curabitur
+laoreet met praesennean et
+iaculum.Metridiculis conseque
+quis iaculum aen ean nunc 
+aenean quis nam nis</p>
+
+  </div>
+</div>
+
+<div class=" col-xs-12 col-sm-4 iwrapper"  style="padding:5px;background-color:lightgray">
+<img class="col-xs-12" src="https://wallpaperclicker.com/storage/wallpaper/football-player-wallpapers-high-resolution-19343406.jpg"  style="height:180px;background-color:white;padding-top:10px;">
+<div class="col-xs-12" style="background-color:white;">
+
+<h3 style="color:purple;text-align: center">Lorum ipsum dolor</h3>
+<p>Orciinterdum condimenterdum
+nullamcorper elit nam curabitur
+laoreet met praesennean et
+iaculum.Metridiculis conseque
+quis iaculum aen ean nunc 
+aenean quis nam nis</p>
+
+  </div>
+
+</div>
+
+  </div>
+<div class="col-xs-12" style="background-color: white">
+<div class="col-xs-offset-0 col-sm-offset-0 col-sm-6 col-md-3">
+<h4>CONTACTDETAILS</h4>
+<p>Convallisijusto verstas mus<br>
+pellentum aenean sapibulum in<br>
+aliquam volut pat integest nulla.<br>
+Tel:xxxx xxxxxxxxxx
+Fax:xxxx xxxxxxxxxx
+Email:contact@mydomain.com
+</p>
+</div>
+
+<div class="col-xs-offset-0 col-sm-offset-0 col-sm-6 col-md-3">
+<h4>QUICK LINKS</h4>
+<p class="quick">Link Text Here</p>
+<p class="quick">Link Text Here</p>
+<p class="quick">Link Text Here</p>
+<p class="quick">Link Text Here</p>
+
+</div>
+
+<div class=" col-xs-offset-0 col-sm-offset-0 col-sm-6 col-md-3">
+<h4>FROM THE BLOG</h4>
+
+<h5 style="font-weight:bold">Blog Post Title</h5>
+<p>Posted by Admin on 23.4.2017
+vestibulumanan eggestibulan
+eu justo convallis augue estas
+aenean elit intesque sed facilispede<br>s
+estibulan</p>
+
+
+</div>
+<div class=" col-xs-offset-0  col-sm-offset-0 col-sm-6 col-md-3">
+<h4>GRAB OUR NEWSLETTER</h4>
+<input type="textbox" class="col-xs-12" placeholder="Name">
+<input type="email" class="col-xs-12 top" placeholder="Email">
+<button class="col-xs-4 top" style="color:purple;font-weight:bold">Submit</button>
+</div>
+</div>
+<footer class="col-xs-12" style="background-color: black;color:white">
+  <p style="padding-top:10px">Copyright &copy;	  2013-All Rights Reserved-Domain Name</p>
+</footer>
+  </div>
+  </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="slick.min.js"></script>
+<script>
+
+$(document).ready(function(){
+
+
+$('.thing').slick({
+  dots:true,
+
+autoplay:true,
+ prevArrow: false,
+     // nextArrow: false,
+    // arrows:true,
+  // dots: true,
+  // infinite: true,
+  // speed: 300,
+  // slidesToShow: 1,
+  // adaptiveHeight: true
+
+})
+
+
+})
+
+
+
+
+  </script> -->
+</body>
+</html>
